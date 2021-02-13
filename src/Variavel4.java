@@ -35,6 +35,8 @@ public class Variavel4 {
         System.out.println(vazia.isEmpty());// mostra se a variavel esta vazia ou não.
 
         System.out.println(texto.substring(1, 3)); // Retira um pedaço do texto para manipular.
+
+        System.out.println("Carro ".concat("Veloz") ); // Metodo contac para concatenar strings
     }
 }
 
