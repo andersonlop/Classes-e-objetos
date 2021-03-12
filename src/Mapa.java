@@ -1,9 +1,11 @@
 import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Mapa {
     // variaveis HashMap
     public static void main(String[] args){
-        HashMap<String, String> map = new HashMap<>();
+        Map<String, String> map = new TreeMap<>();
         map.put("C", "Carro");
         map.put("M", "Moto");
         map.put("B", "Bicicleta");
